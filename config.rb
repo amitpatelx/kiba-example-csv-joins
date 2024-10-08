@@ -2,6 +2,7 @@ require 'kiba'
 require 'kiba-common/sources/csv'
 require 'kiba-common/destinations/csv'
 require 'kiba-common/dsl_extensions/show_me'
+require 'awesome_print'
 
 module Lookup
   module_function

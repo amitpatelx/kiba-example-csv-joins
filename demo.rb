@@ -22,9 +22,8 @@ job = Kiba.parse do
   end
   
   # useful to show the records as they flow:
-  
-  # extend Kiba::Common::DSLExtensions::ShowMe
-  # show_me!
+  extend Kiba::Common::DSLExtensions::ShowMe
+  show_me!
 
   filename = 'data/main-enriched.csv'
   
